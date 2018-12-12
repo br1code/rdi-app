@@ -1,0 +1,7 @@
+{
+  "name": "test-api-rdi",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
