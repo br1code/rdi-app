@@ -15,22 +15,22 @@ export class BalanzaServiceProvider {
   }
 
   getPesoBalanza1() {
-    return this.http.get('http://artimsrv4rdi003.glenar.local/Renova.RDI.UI.Web.Api/api/CapturaDatosBalanza/ObtenerPesosPorCabezalBalanza/?cabezalBalanzaID=55');
+    return this.http.get('');
   }
 
   getPesoBalanza2() {
-    return this.http.get('http://artimsrv4rdi003.glenar.local/Renova.RDI.UI.Web.Api/api/CapturaDatosBalanza/ObtenerPesosPorCabezalBalanza/?cabezalBalanzaID=56');
+    return this.http.get('');
   }
 
   getPesoBalanza3() {
-    return this.http.get('http://artimsrv4rdi003.glenar.local/Renova.RDI.UI.Web.Api/api/CapturaDatosBalanza/ObtenerPesosPorCabezalBalanza/?cabezalBalanzaID=57');
+    return this.http.get('');
   }
 
   getPesoBalanza4() {
-    return this.http.get('http://artimsrv4rdi003.glenar.local/Renova.RDI.UI.Web.Api/api/CapturaDatosBalanza/ObtenerPesosPorCabezalBalanza/?cabezalBalanzaID=204');
+    return this.http.get('');
   }
 
   getPesoBalanza5() {
-    return this.http.get('http://artimsrv4rdi003.glenar.local/Renova.RDI.UI.Web.Api/api/CapturaDatosBalanza/ObtenerPesosPorCabezalBalanza/?cabezalBalanzaID=142');
+    return this.http.get('');
   }
 }
